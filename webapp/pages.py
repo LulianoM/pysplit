@@ -1,12 +1,8 @@
 import streamlit as st
 
 def header_intro():
-    col1, col3 = st.columns([1,1])
-    with col1:
-        st.header("PySplit - Trajectory Generator")
-        st.text('version 0 - Last update 25/07/2023')
-    with col3:
-        st.image('imgs/hysplit.png', width=150 )
+    st.header("PySplit - Trajectory Generator")
+    st.text('version 0 - Last update 25/07/2023')
 
 
 def sidebar():
